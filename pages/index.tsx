@@ -2,7 +2,6 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import About from '../components/About';
 import Experience from '../components/Experience';
-
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 
@@ -20,21 +19,27 @@ const Home: NextPage = () => {
           href='/favicon.ico'
         />
       </Head>
-      {/* Header */}
+
       <Header />
-      {/* Hero */}
+
       <section
         id='hero'
         className='snap-start'
       >
         <Hero />
       </section>
-      {/* About */}
-      <section className='snap-start'>
+
+      <section
+        id='about'
+        className='snap-start'
+      >
         <About />/
       </section>
       {/* Experience */}
-      <section>
+      <section
+        id='experience'
+        className='snap-start'
+      >
         <Experience />
       </section>
       {/* Skills */}

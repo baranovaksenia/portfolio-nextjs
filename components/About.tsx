@@ -22,7 +22,7 @@ export default function About({}: Props) {
         // animation only once
         viewport={{ once: true }}
         transition={{ duration: 1.2 }}
-        className='relative -mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+        className='relative -mb-20 mt-10 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
       >
         <Image
           src={author}
