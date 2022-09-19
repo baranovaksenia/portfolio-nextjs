@@ -30,7 +30,7 @@ function BackgroundCircles({}: Props) {
       />
       <div
         className='absolute rounded-full w-[680px] h-[680px] mt-64
-      border border-[#F7AB0A] opacity-5 animate-pulse
+      border border-[#EBBB77] opacity-5 animate-pulse
       '
       />
       <div

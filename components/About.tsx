@@ -35,9 +35,7 @@ export default function About({}: Props) {
       <div className='space-y-10 px-0 md:px-10'>
         <h4 className='text-4xl font-semibold'>
           Here’s a bit about myself{' '}
-          <span className='underline decoration-yellow-500/50'>
-            to help you
-          </span>{' '}
+          <span className='underline decoration-[#EBBB77]'>to help you</span>{' '}
           understand where I’m coming from
         </h4>
         <p className='text-base'>
